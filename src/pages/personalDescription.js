@@ -1,0 +1,9 @@
+export default function personalDescription() {
+    return `
+                <h3 class="text-warning">Aquí estoy...</h3>
+                <p class="fs-5">Mi nombre es Jorge, pero en la red soy conocido como Jaip desde que tengo recuerdos. <br>Mi primer acercamiento al mundo del desarrolo fue a los 10 años con MSN Groups donde con amigos fundamos Los Espectros Exiliados, juego por mensajería de texto de los Caballeros del Zodiaco (lamentablemente el proyecto fue hackeado y no se puede ver mediante WayBackMachine) y más tarde me aventuré con el desarrollo web mediante FrontPage pero mi limitado gusto por el buen diseño me desmotivó a seguir ese camino.</p> 
+                <p class="fs-5">Un tiempo después monté un servidor de MU online para jugar con otras personas de internet, configurando la Base de Datos con SQL Server y la página Web con Apache para la creación de cuentas o realizar acciones de reseteo de personajes, al parecer mi destino era seguir el camino de la programación.</p>
+                <p class="fs-5">Sin embargo mi camino fue girando un poco para acercarme más y más a la matemática, participando en Olimpiadas de Matemática Regionales, clasificando a la Olimpiada Nacional o preseleccionado para la Cono Sur. También crecía mi interés por la física donde también obtuve logros a nivel Regional en Olimpiadas. Esto marcaría un acercamiento hacia las Ciencias Naturales</p> 
+                <p class="fs-5">Pero para nada descuidé mis otras facetas, ganando un concurso de escritura a nivel Regional con un ensayo titulado "Navengado por la Vida" o un concurso de Composición Musical Rock con nuestra banda escolar Réplica. Todo esto marcaría mi ingreso a Geofísica en la Universidad de Concepción obteniendo Puntaje Máximo Nacional en la prueba de Matemática para entrar a la Universidad</p> 
+    `
+}

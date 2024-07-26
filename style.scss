@@ -1,0 +1,86 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+.custom-svg-wrapper {
+    @extend .d-flex;
+    @extend .w-auto;
+    @extend .border;
+    @extend .border-2;
+    @extend .border-primary-subtle;
+    @extend .rounded-pill;
+    @extend .p-2;
+    @extend .m-1;
+    @extend .align-items-center;
+    transition: all 0.4s ease-out;
+    cursor: default;
+    &:hover{
+        background-color: $gray-200;
+        color: $dark;
+        @extend .border-primary;
+    }
+}
+
+.custom-wrapper {
+    @extend .d-flex;
+    @extend .w-auto;
+    @extend .border;
+    @extend .border-2;
+    @extend .border-primary-subtle;
+    @extend .rounded-pill;
+    @extend .py-1;
+    @extend .px-2;
+    @extend .my-1;
+    @extend .align-items-center;
+    transition: all 0.4s ease-out;
+    cursor: default;
+    &:hover{
+        background-color: $gray-200;
+        color: $dark;
+        @extend .border-primary;
+    }
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 223, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 8px $warning;
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(255, 223, 0, 0.5);
+    }
+}
+.open-work {
+    @extend .w-auto;
+    @extend .border;
+    @extend .border-warning;
+    @extend .rounded-pill;
+    @extend .p-2;
+    @extend .my-1;
+    @extend .align-items-center;
+    border: 5px solid transparent;
+    transition: all 0.4s ease-out;
+    animation: glow 1.5s infinite;
+    &:hover{
+        animation: none;
+        box-shadow: 0 0 8px $warning
+    }
+}
+.carousel-item {
+    position: relative;
+    height: 500px; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+  }
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,15 @@
+.svg-logos{
+  height: 24px;
+  width: auto;
+  margin-right: 5px;
+}
+
+#home-photo{
+  mask-image: radial-gradient(
+    black 80%,  transparent
+  );
+  border-radius: 500px;
+  width: 150px;
+  height: auto;
+
+}
