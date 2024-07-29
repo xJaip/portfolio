@@ -1,9 +1,10 @@
 
-import Navigo from 'https://cdnjs.cloudflare.com/ajax/libs/navigo/7.1.3/navigo.min.js';
-// Importa tus módulos de página
-import home from './src/pages/home.js';
-import about from './src/pages/about.js';
-import projects from './src/pages/projects.js';
+import Navigo from 'navigo'
+import './style.css'
+import './src/styles/custom.css'
+import home from './src/pages/home.js'
+import about from './src/pages/about.js'
+import projects from './src/pages/projects.js'
 import contact from './src/pages/contact.js'
 
 //inicia tooltip
