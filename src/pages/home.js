@@ -1,6 +1,7 @@
 export default function home() {
     return `
-<div class="container text-center">
+    <div class="container text-center">
+    <header>
       <div class="row align-middle mb-2">
         <div class="col-12 col-lg-1 mb-3">
           <img id="home-photo" src="./src/images/jorge.webp" alt="Fotografía de Jorge">
@@ -13,12 +14,14 @@ export default function home() {
           <button onclick="location.href='https://www.linkedin.com/in/j-illanes-pareja/'" class="open-work fs-5">Disponible para Trabajar</button>
           </div>
       </div>
-      
+      </header>
       <div class="row justify-content-around">
+      <section>
         <div class="col-sm-10 col-lg-6 align-self-center">
           <p class="fs-3 text-center text-lg-start">Soy Jorge, +10 años experiencia. <span class="text-warning">Analista de Datos, Profesor de Matemática y Computación</span> de Hualpén, Chile. Busco avanzar en una nueva etapa para generar soluciones tecnológicas como analista o desarrollador.</p>
           </div>
-
+      </section
+      <aside>
         <!--Tech Logo Section-->
         <div class="col-sm-10- col-lg-5">
           <!--Dev-->
@@ -115,7 +118,7 @@ export default function home() {
           <!-- -->
           
         </div>
-
+      </aside>
       </div>
 
       <div class="row">
