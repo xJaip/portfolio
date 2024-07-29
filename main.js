@@ -1,11 +1,11 @@
-import 'style.css'
-import 'src/styles/custom.css'
+import './style.css'
+import './src/styles/custom.css'
 import Navigo from 'navigo';
 // Importa tus módulos de página
-import home from 'src/pages/home.js';
-import about from 'src/pages/about.js';
-import projects from 'src/pages/projects.js';
-import contact from 'src/pages/contact.js'
+import home from './src/pages/home.js';
+import about from './src/pages/about.js';
+import projects from './src/pages/projects.js';
+import contact from './src/pages/contact.js'
 
 //inicia tooltip
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
