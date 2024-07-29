@@ -1,5 +1,4 @@
-import './style.css'
-import './src/styles/custom.css'
+
 import Navigo from 'https://cdnjs.cloudflare.com/ajax/libs/navigo/7.1.3/navigo.min.js';
 // Importa tus módulos de página
 import home from './src/pages/home.js';
