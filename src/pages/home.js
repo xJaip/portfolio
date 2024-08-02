@@ -4,7 +4,7 @@ export default function home() {
     <header class="container">
       <div class="row align-middle mb-1">
         <div class="col-12 col-lg-1 mb-3">
-          <img id="home-photo" src="./src/images/jorge.webp" alt="Fotografía de Jorge">
+          <img id="home-photo" src="./images/jorge.webp" alt="Fotografía de Jorge">
         </div>
         <div class="d-none d-sm-block col-lg-1"></div>
         <div class="col-12 col-lg-6 align-self-center">
@@ -146,7 +146,7 @@ export default function home() {
       <h2>Proyectos destacados</h2>
         <div class="col-sm-10 col-lg-5 mb-2">
           <div class="card h-100 d-inline-block">
-            <img src="./src/images/acorde-inmortal.png" class="card-img-top" alt="...">
+            <img src="./images/acorde-inmortal.png" class="card-img-top" alt="...">
             <div class="card-body">
               <span class="custom-wrapper d-inline-flex">React</span>
               <span class="custom-wrapper d-inline-flex">React dnd</span>
@@ -163,7 +163,7 @@ export default function home() {
         </div>
         <div class="col-sm-10 col-lg-5">
           <div class="card h-100 d-inline-block">
-            <img src="./src/images/club-ajedrez.png" class="card-img-top" alt="...">
+            <img src="./images/club-ajedrez.png" class="card-img-top" alt="...">
             <div class="card-body">
               <span class="custom-wrapper d-inline-flex">HTML 5</span>
               <span class="custom-wrapper d-inline-flex">JavaScript</span>
@@ -233,22 +233,22 @@ export default function home() {
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active col-sm-12 col-lg-4">
-              <img class="carrousel-item certification" src="./src/images/dataAnalystDesafioLatam.png" class="d-block w-100" alt="Certificación de Analista de Datos con Python">
+              <img class="carrousel-item certification" src="./images/dataAnalystDesafioLatam.png" class="d-block w-100" alt="Certificación de Analista de Datos con Python">
             </div>
             <div class="carousel-item">
-              <img src="./src/images/dataAnalystDataCamp.png" class="d-block w-100" alt="Certificado de Analista de Datos con SQL/Python y PowerBi"> 
+              <img src="./images/dataAnalystDataCamp.png" class="d-block w-100" alt="Certificado de Analista de Datos con SQL/Python y PowerBi"> 
             </div>
             <div class="carousel-item">
-              <img src="./src/images/marketingDigitalAIEP.png" class="d-block w-100" alt="Diplomado de Marketing Digital y Gestión Estratégica">
+              <img src="./images/marketingDigitalAIEP.png" class="d-block w-100" alt="Diplomado de Marketing Digital y Gestión Estratégica">
             </div>
             <div class="carousel-item">
-              <img src="./src/images/EFset English.png" class="d-block w-100" alt="Certificación de inglés C1 - Avanzado">
+              <img src="./images/EFset English.png" class="d-block w-100" alt="Certificación de inglés C1 - Avanzado">
             </div>
             <div class="carousel-item">
-              <img src="./src/images/Python.png" class="d-block w-100" alt="Certificado de Programador en Python">
+              <img src="./images/Python.png" class="d-block w-100" alt="Certificado de Programador en Python">
             </div>
             <div class="carousel-item">
-              <img src="./src/images/SQLServer.png" class="d-block w-100" alt="Certificado de SQL Server">
+              <img src="./images/SQLServer.png" class="d-block w-100" alt="Certificado de SQL Server">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">

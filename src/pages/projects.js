@@ -36,7 +36,7 @@ export default function projects() {
             <a href="https://club-ajedrez-conce.netlify.app/">Link al Sitio</a>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
-            <img class="img-fluid" src="./src/images/club-ajedrez.png" alt="Página del Club de Ajedrez">
+            <img class="img-fluid" src="./images/club-ajedrez.png" alt="Página del Club de Ajedrez">
           </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function projects() {
             <p class="fs-5 text-start mt-2">Análisis de Resultados SIMCE de 2° medio de 2023. Se descubren fuertes relaciones en asistencia y puntajes de las pruebas de matemática y lenguaje basado en su nivel de logro. Además de la existencia de fuerte correlación entre nivel socio-económico y puntajes en las diferentes pruebas que se mantiene a lo largo de todas las regiones y comunas.</p>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
-            <img class="img-fluid" src="./src/images/sin-image.png" alt="Sin imagen disponible">
+            <img class="img-fluid" src="./images/sin-image.png" alt="Sin imagen disponible">
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export default function projects() {
             <p class="fs-5 text-start mt-2">A través de las concentraciones de notas recuperadas de profesores de primero medio se genera una clusterización para crear diferentes cursos en segundo medio con grupos de similares características. Se detectan 4 grupos según inercia, se analizan y se validan para resaltar las características que maximizan la varianza entre los grupos.</p>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
-            <img class="img-fluid" src="./src/images/cluster.png" alt="Imagen referencial del Jupiter Notebook">
+            <img class="img-fluid" src="./images/cluster.png" alt="Imagen referencial del Jupiter Notebook">
           </div>
         </div>
 
