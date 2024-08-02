@@ -14,39 +14,39 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 // Agrega el evento click para dispositivos móviles
 tooltipTriggerList.forEach(tooltipTriggerEl => {
     tooltipTriggerEl.addEventListener('click', () => {
-        const tooltip = bootstrap.Tooltip.getInstance(tooltipTriggerEl);
+        const tooltip = bootstrap.Tooltip.getInstance(tooltipTriggerEl)
         if (tooltip._element.getAttribute('aria-describedby')) {
-            tooltip.hide();
+            tooltip.hide()
         } else {
-            tooltip.show();
+            tooltip.show()
         }
     });
 });
 
 
 // Configura el enrutador
-const router = new Navigo(window.location.origin, { hash: true });
+const router = new Navigo(window.location.origin, { hash: true })
 
 // Función para actualizar el contenido de la página
 function updateContent(content) {
-    const contentElement = document.getElementById('content');
-    contentElement.innerHTML = content;
-    window.scrollTo(0, 0);
+    const contentElement = document.getElementById('content')
+    contentElement.innerHTML = content
+    window.scrollTo(0, 0)
 }
 
 // Configura las rutas
 router
     .on('/', () => {
-        updateContent(home());
-        setActiveLink('home-link');
+        updateContent(home())
+        setActiveLink('home-link')
     })
     .on('/about', () => {
-        updateContent(about());
-        setActiveLink('about-link');
+        updateContent(about())
+        setActiveLink('about-link')
     })
     .on('/projects', (match) => {
-        updateContent(projects());
-        setActiveLink('projects-link');
+        updateContent(projects())
+        setActiveLink('projects-link')
     })
     .on('/contact', () => {
       updateContent(contact())
@@ -58,7 +58,7 @@ router
 // Función para establecer el enlace activo
 function setActiveLink(linkId) {
     document.querySelectorAll('nav a').forEach(link => {
-        link.classList.remove('active');
+        link.classList.remove('active')
     });
-    document.getElementById(linkId).classList.add('active');
+    document.getElementById(linkId).classList.add('active')
 }

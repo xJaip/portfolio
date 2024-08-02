@@ -157,7 +157,7 @@ export default function home() {
               <span class="custom-wrapper d-inline-flex">JavaScript</span>
               <h5 class="card-title my-2">Acorde-Inmortal Online</h5>
               <p class="card-text">Un juego de Cartas Coleccionables en tiempo real donde puedes consturir tu propia baraja y representar a una Disquera en una guerra por prevalecer en la Industria acompañado de distintos artistas de todo el mundo.</p>
-              <a href="/projects" class="btn btn-primary">Ver más</a>
+              <a class="btn btn-primary align-items-end" href="#/projects">Ver más</a>
             </div>
           </div>
         </div>
@@ -193,7 +193,7 @@ export default function home() {
   </div>
   <div class="col-sm-12 col-lg-5">
     <p class="text-lg-end fs-5">Profesor titular de matemática en diferentes entornos educativos con niños, niñas, adolescentes y adultos destacado por poseer gran capacidad de comunicación y disponer de sólidos conocimientos matemáticos destacando en Estadística y Geometría.</p>
-    <p class="text-end fs-5"><a class="/about" href="">Saber más</a></p>
+    <p class="text-end fs-5"><a class="" href="#/about">Saber más</a></p>
     </div>
   </div>
 
@@ -204,7 +204,7 @@ export default function home() {
     </div>
     <div class="col-sm-12 col-lg-5">
       <p class="text-lg-end fs-5">Como profesor ha analizado datos en toda su carrera, sin embargo se dedica de lleno al análisis desde el 2023 realizando diversos proyectos en diversas temáticas, específicamente en educación.</p>
-      <p class="text-end fs-5"><a class="" href="/about">Saber más</a></p>
+      <p class="text-end fs-5"><a class="" href="#/about">Saber más</a></p>
     </div>
   </div>
 
@@ -215,7 +215,7 @@ export default function home() {
     </div>
     <div class="col-sm-12 col-lg-5">
       <p class="text-lg-end fs-5">Ha realizado distintos proyectos de distinta dificultad en variados lenguajes de programación comenzando por Fortran90, MATLAB hasta llegar a Python y JavaScript destacando en lógica de programación BackEnd. Últimamente también ha desarrollado proyectos enfocados FrontEnd y Marketing Digital</p>
-      <p class="text-end fs-5"><a class="" href="/about">Saber más</a></p>
+      <p class="text-end fs-5"><a class="" href="#/about">Saber más</a></p>
     </div>
   </div>
 
