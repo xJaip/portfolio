@@ -8,7 +8,7 @@ import personalDescription from "./personalDescription.js"
 export default function about() {
     return `
      <div class="container mt-5">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <a class="nav-link active" id="experiencia-laboral-tab" data-bs-toggle="tab" href="#experiencia-laboral" role="tab" aria-controls="experiencia-laboral" aria-selected="true">Experiencia Laboral</a>
             </li>

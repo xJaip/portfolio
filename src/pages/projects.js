@@ -4,7 +4,7 @@ export default function projects() {
       <h2 class="">Conoce algunos de mis Proyectos</h2>
       <span>Filtrar por:</span>
       <div class="row mb-5 py-3">
-        <div class="col-sm-10 col-lg-5 mx-auto">
+        <div class="col-12 col-lg-6 mx-auto">
           <h3 class="text-start text-warning">Acorde Inmortal Online</h3>
           <h4 class="text-start text-secondary">Desarrollador</h4>
           <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Manejo de estados globales, interactividad en el sitio y con los elementos del juego y actualización de estado de juego">React</span>
@@ -14,8 +14,8 @@ export default function projects() {
           <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Montar el servidor, lógica del juego, API para compras en la tienda, matchmaking, etc.">Node.js</span>
           <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cargar información de las cartas en memoria del servidor para disminuir consultas a la BD.">memcached</span>
           <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Complemento para React y desarrollo de la lógica del juego">JavaScript</span>
-          <p class="fs-5 text text-center mt-2">Aplicación web para mi juego de cartas Acorde Inmortal. Creado principalmente con React del lado del cliente y Node.js en el servidor, la página ofrece una experiencia cercana a lo que sería desarrollar una partida de este juego de cartas en vivo además de la compra de productos con monedas del juego y la creación de barajas personalizadas.</p> 
-          <p class="fs-5 text-success-emphasis">Para el diseño base las cartas se utilizó una Inteligencia Artificial y Photoshop para su edición y scripts para la edición masiva de cartas.</p>
+          <p class="fs-5 text-start mt-2">Aplicación web para mi juego de cartas Acorde Inmortal. Creado principalmente con React del lado del cliente y Node.js en el servidor, la página ofrece una experiencia cercana a lo que sería desarrollar una partida de este juego de cartas en vivo además de la compra de productos con monedas del juego y la creación de barajas personalizadas.</p> 
+          <p class="fs-5 text-start">Para el diseño base las cartas se utilizó una Inteligencia Artificial y Photoshop para su edición y scripts para la edición masiva de cartas.</p>
         </div>
         <div class="col-12 col-lg-6 mx-auto">
           <iframe class="col-12" width="520" height="315" src="https://www.youtube.com/embed/m0PHNQ69MZE?si=Vz4YGeGA8UrkBctv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -32,7 +32,8 @@ export default function projects() {
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Componentes para el diseño del sitio con custom classes.">Bootstrap</span>
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Se trabaja en el análisis y configuración para ser accesibles mediante búsquedas en internet">SEO</span>
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Se cuida el diseño responsivo bajo el paradigma Mobile First" >Responsive</span>
-            <p class="fs-5 text-info text-start mt-2">Página cuyo objetivo es promocionar el torneo Diente de Leche y el Club de Ajedrez Conce que lo realiza, según las necesidades del cliente. Muestra un acercamiento al FrontEnd utilizando Bootstrap v5.3 y Javascript Vanilla para la creación de Rankings que muestran los resultados de torneos. También lleva un trabajo de posicionamiento en buscadores.</p> 
+            <p class="fs-5 text-start mt-2">Página cuyo objetivo es promocionar el torneo Diente de Leche y el Club de Ajedrez Conce que lo realiza, según las necesidades del cliente. Muestra un acercamiento al FrontEnd utilizando Bootstrap v5.3 y Javascript Vanilla para la creación de Rankings que muestran los resultados de torneos. También lleva un trabajo de posicionamiento en buscadores.</p>
+            <a href="https://club-ajedrez-conce.netlify.app/">Link al Sitio</a>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
             <img class="img-fluid" src="./src/images/club-ajedrez.png" alt="Página del Club de Ajedrez">
@@ -50,7 +51,7 @@ export default function projects() {
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Creación de distintas gráficas para mostrar insights y personalización de gráficos" >Seaborn</span>
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Interpretación de información obtenida a través de los datos mediante estadísticos y visualizaciones." >Estadística</span>
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Visualizaciones creadas siguiendo el Framework de Tamara Munzner" >DataViz</span>
-            <p class="fs-5 text-info text-start mt-2">Análisis de Resultados SIMCE de 2° medio de 2023. Se descubren fuertes relaciones en asistencia y puntajes de las pruebas de matemática y lenguaje basado en su nivel de logro. Además de la existencia de fuerte correlación entre nivel socio-económico y puntajes en las diferentes pruebas que se mantiene a lo largo de todas las regiones y comunas.</p>
+            <p class="fs-5 text-start mt-2">Análisis de Resultados SIMCE de 2° medio de 2023. Se descubren fuertes relaciones en asistencia y puntajes de las pruebas de matemática y lenguaje basado en su nivel de logro. Además de la existencia de fuerte correlación entre nivel socio-económico y puntajes en las diferentes pruebas que se mantiene a lo largo de todas las regiones y comunas.</p>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
             <img class="img-fluid" src="./src/images/sin-image.png" alt="Sin imagen disponible">
@@ -69,7 +70,7 @@ export default function projects() {
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Utilización de los modelos K-means y Agglomerative para la generación de Clusters">Scikit-Learn</span>
             <span class="custom-wrapper d-inline-flex" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Interpretación de información obtenida a través de los datos mediante estadísticos y visualizaciones." >Estadística</span>
 
-            <p class="fs-5 text-info text-start mt-2">A través de las concentraciones de notas recuperadas de profesores de primero medio se genera una clusterización para crear diferentes cursos en segundo medio con grupos de similares características. Se detectan 4 grupos según inercia, se analizan y se validan para resaltar las características que maximizan la varianza entre los grupos.</p>
+            <p class="fs-5 text-start mt-2">A través de las concentraciones de notas recuperadas de profesores de primero medio se genera una clusterización para crear diferentes cursos en segundo medio con grupos de similares características. Se detectan 4 grupos según inercia, se analizan y se validan para resaltar las características que maximizan la varianza entre los grupos.</p>
           </div>
           <div class="col-sm-10 col-lg-5 mx-auto">
             <img class="img-fluid" src="./src/images/cluster.png" alt="Imagen referencial del Jupiter Notebook">
